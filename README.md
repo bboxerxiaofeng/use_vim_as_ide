@@ -1971,7 +1971,7 @@ cd llvm/projects
 svn co http://llvm.org/svn/llvm-project/compiler-rt/trunk compiler-rt 
 cd ../..
 ```
-关掉其他应用，尽量多的系统资源留给 GCC 编译 clang 源码：
+关掉其他应用，尽量多的系统资源留给 GCC 编译 clang 源码：(这里要求gcc版本是5以上，并且还有可能要安装cmake
 
 ```
 mkdir build
